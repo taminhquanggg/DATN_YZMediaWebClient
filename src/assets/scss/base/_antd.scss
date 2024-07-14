@@ -1,0 +1,87 @@
+.ant {
+  &-form {
+    &.form-search {
+      .flex-controls {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .ant-form-control {
+          &.ant-form-input {
+            flex: 0 0 20%;
+            min-width: 20%;
+          }
+
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-start;
+
+          .ant-form-item {
+            width: 100%;
+            margin: 0;
+          }
+
+          .ant-form-item-date {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &-list {
+    &.list-item-hover {
+      .ant-list-items {
+        .ant-list-item:hover {
+          background-color: rgb(241, 241, 241);
+        }
+      }
+    }
+  }
+
+  &-upload-wrapper {
+    &.custom-upload-image {
+      .ant-upload.ant-upload-select {
+        width: fit-content !important;
+        height: fit-content !important;
+      }
+    }
+  }
+
+  &-image {
+    height: 170px;
+    width: 100%;
+    .custom-full-width {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.toolbar-wrapper {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  padding: 0px 24px;
+  color: #fff;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  transform: translateX(-50%);
+}
+
+.toolbar-wrapper .anticon {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.toolbar-wrapper .anticon[disabled] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.toolbar-wrapper .anticon:hover {
+  opacity: 0.3;
+}

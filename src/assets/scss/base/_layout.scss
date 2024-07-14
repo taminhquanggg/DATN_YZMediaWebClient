@@ -1,0 +1,57 @@
+.app {
+  height: 100vh;
+  .app__outlet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    .app__top {
+      width: 280px;
+    }
+
+    .app__outlet-inner {
+      width: calc(100% - 280px);
+      overflow-y: auto;
+    }
+  }
+}
+
+.main-layout {
+  min-height: 100vh;
+
+  .content-scroll {
+    height: 100vh;
+    overflow-y: scroll;
+    // padding-top: 24px;
+    padding-bottom: 50px;
+    .ant-layout-content {
+      min-height: unset;
+    }
+  }
+
+  .main-layout-content {
+    margin: 0 16px;
+
+    .main-layout-breadcrumb {
+      margin: 16px 0px;
+    }
+
+    .card-content {
+      padding: 24px;
+      // min-height: 360px;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+
+    .flex-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+}
+
+.scroll {
+  overflow: auto;
+}

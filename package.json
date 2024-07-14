@@ -1,0 +1,86 @@
+{
+  "name": "fieldbookingweb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^30.1.0",
+    "@ag-grid-community/core": "^30.1.0",
+    "@air/react-drag-to-select": "^5.0.8",
+    "@babel/core": "^7.23.3",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.23.3",
+    "@ckeditor/ckeditor5-build-classic": "^40.1.0",
+    "@ckeditor/ckeditor5-react": "^6.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "ag-grid-community": "^31.3.2",
+    "ag-grid-react": "^31.3.2",
+    "antd": "^5.16.0",
+    "antd-img-crop": "^4.13.0",
+    "axios": "^1.7.2",
+    "babel-loader": "^9.1.3",
+    "chart.js": "^4.4.0",
+    "d3": "^7.8.5",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.9",
+    "firebase": "^10.8.1",
+    "imask": "^7.6.1",
+    "md5": "^2.3.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "react": "^18.2.0",
+    "react-calendar": "^4.6.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
+    "react-date-object": "^2.1.8",
+    "react-dom": "^18.2.0",
+    "react-excel-renderer": "^1.1.0",
+    "react-highlight-words": "^0.20.0",
+    "react-mouse-select": "^1.1.2",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.20.0",
+    "react-selectable": "^2.1.1",
+    "react-selectable-fast": "^3.4.0",
+    "react-toastify": "^9.1.3",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "swiper": "^10.3.1",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4",
+    "websocket": "^1.0.34"
+  },
+  "scripts": {
+    "start": "vite",
+    "test": "vitest",
+    "build": "vite build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.0.2",
+    "vitest": "^1.1.0"
+  }
+}
